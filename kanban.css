@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+   display: flex;
+   background-color:#353131;
+   height: 60px;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+  /* position: fixed;
+   width: 100%;*/
+}
+
+img{
+   width:120px;
+   padding: 5px;
+   margin: 5px;
+   
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+    height: 24px;
+   /* height: 50px;
+    padding-top: 15px;*/
+}
+
+.btn1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #6630FF;
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 30px;
+
+}
+
+.left-nav{
+    background-color:#353131;
+    height:1000px;
+    width:200px;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.left{
+    margin-top: 20px;
+    
+}
+
+.feature{
+   margin-top: 20px;
+  
+
+}
+
+.do{
+    display: flex;
+}
+
+.container{
+    display: flex;
+   
+    justify-content: space-around;
+    
+}
+
+.row{
+    background-color:  #282626;
+    width:100%;
+    display: flex;
+
+    gap:100px;
+    
+    
+}
+
+.third{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.second{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.first{
+    padding: 10px;
+    margin: 10px;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    font-weight: bold;
+    background-color:#353131;
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    color:gray;
+    padding-top: 8px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn2{
+    background-color: #6630FF;
+    padding: 5px;
+    border-radius: 30px;
+   margin-left: 0px;
+   padding-left: 0px;
+    width:180px;
+}
+
+#material{
+    color:#6630FF;
+    
+}
+
+.ok{
+    color: #6630FF;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer{
+    color: white;
+    font-size: 16px;
+    position:absolute;
+    bottom: 0;
+    
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+    fill: #6630FF;
+    
+}
